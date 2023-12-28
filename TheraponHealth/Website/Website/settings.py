@@ -123,7 +123,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIR = {
     os.path.join(BASE_DIR, "static"),
-    '/TheraponHealth/members/static/'
+    '/Website/members/static/'
 }
 
 STORAGES = {
