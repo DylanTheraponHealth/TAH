@@ -1209,7 +1209,7 @@ blockquote::before {
   padding: 0;
 }
 
-.custom-form button[type="submit"] {
+.custom-form button[type="button"] {
   background: var(--custom-btn-bg-color);
   border: none;
   border-radius: var(--border-radius-large);
@@ -1220,8 +1220,8 @@ blockquote::before {
   margin-bottom: 0;
 }
 
-.custom-form button[type="submit"]:hover,
-.custom-form button[type="submit"]:focus {
+.custom-form button[type="button"]:hover,
+.custom-form button[type="button"]:focus {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
 }
@@ -1242,7 +1242,7 @@ blockquote::before {
   padding-right: 50px;
 }
 
-.search-form button[type="submit"] {
+.search-form button[type="button"] {
   background: transparent;
   position: absolute;
   top: 0;
@@ -1252,7 +1252,7 @@ blockquote::before {
   padding: 12px;
 }
 
-.search-form button[type="submit"]:hover {
+.search-form button[type="button"]:hover {
   background: transparent;
   color: var(--dark-color);
 }
